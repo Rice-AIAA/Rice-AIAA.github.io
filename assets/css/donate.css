@@ -1,0 +1,28 @@
+/* Header Formatting */
+
+#main > header {
+		padding: 23em 0 18em 0 ;
+		color: white;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2), rgba(0,0,0,0.6)), url("../../images/sae-competition-2024-team-in-line.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0, 0, 0.0), rgba(0, 0, 0, 0.2), rgba(0,0,0,0.6)), url("../../images/sae-competition-2024-team-in-line.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2), rgba(0,0,0,0.6)), url("../../images/sae-competition-2024-team-in-line.jpg");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2), rgba(0,0,0,0.6)), url("../../images/sae-competition-2024-team-in-line.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+#main .big-header {
+    font-size: 2.25em;
+}
+
+#main {
+    color: #fff;
+	text-align: center;
+}
+
+img {
+	padding: 1em;
+}

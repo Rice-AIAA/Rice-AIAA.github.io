@@ -1,0 +1,27 @@
+/* Header Formatting */
+
+#main > header {
+		padding: 27em 0 15em 0 ;
+		color: white;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0,0,0,0.7)), url("../../images/team-photo-2025-spring.jpeg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0,0,0,0.7)), url("../../images/team-photo-2025-spring.jpeg");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0,0,0,0.7)), url("../../images/team-photo-2025-spring.jpeg");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0,0,0,0.7)), url("../../images/team-photo-2025-spring.jpeg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+#main .big-header {
+    font-size: 2.25em;
+}
+
+#main {
+    color: #fff;
+}
+
+h2 {
+	font-size: 2em;
+}

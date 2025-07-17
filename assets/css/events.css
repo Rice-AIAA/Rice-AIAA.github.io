@@ -1,0 +1,27 @@
+/* Header Formatting */
+
+#main > header {
+		padding: 24em 0 18em 0 ;
+		color: white;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0,0,0,0.1)), url("../../images/f35-2023-airshow.JPEG");
+		background-image: -webkit-linear-gradient(top, rgba(0,0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0,0,0,0.1)), url("../../images/f35-2023-airshow.JPEG");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0,0,0,0.1)), url("../../images/f35-2023-airshow.JPEG");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0,0,0,0.1)), url("../../images/f35-2023-airshow.JPEG");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+#main .big-header {
+    font-size: 2.25em;
+}
+
+#main {
+    color: #fff;
+}
+
+h2 {
+	font-size: 2em;
+}
