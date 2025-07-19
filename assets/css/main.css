@@ -3441,7 +3441,7 @@ figcaption {
 
 		#menu .close {
 			background-image: url("images/close.svg");
-			background-position: 4.85em 1em;
+			background-position: 4.85em 1.5em;
 			background-repeat: no-repeat;
 			border: 0;
 			cursor: pointer;
@@ -3484,14 +3484,19 @@ figcaption {
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #2e3842;
-		height: 3em;
+		height: 4em;
 		left: 0;
-		line-height: 3em;
+		line-height: 4em;
 		position: fixed;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
 	}
+
+		#header img {
+			max-height: 55px;
+			padding-top: 10px;
+		}
 
 		#header h1 {
 			-moz-transition: opacity 0.2s ease;
@@ -3561,7 +3566,7 @@ figcaption {
 								background-repeat: no-repeat;
 								content: '';
 								display: inline-block;
-								height: 3.75em;
+								height: 5em;
 								vertical-align: top;
 								width: 2em;
 							}
