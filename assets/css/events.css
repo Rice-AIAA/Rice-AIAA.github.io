@@ -22,6 +22,11 @@
     color: #fff;
 }
 
+.style5 {
+	display: flex; /* or display: grid; */
+    flex-direction: column; /* Stacks items vertically */
+}
+
 h2 {
 	font-size: 2em;
 }

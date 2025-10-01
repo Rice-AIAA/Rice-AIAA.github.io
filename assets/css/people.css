@@ -23,6 +23,11 @@
 	margin: 0 auto;
 }
 
+.wrapper > .inner p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 #main {
     color: #fff;
 	text-align: center;
