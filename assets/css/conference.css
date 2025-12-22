@@ -1,0 +1,28 @@
+/* Header Formatting */
+
+#main > header {
+		padding: 23em 0 18em 0 ;
+		color: white;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4), rgba(0,0,0,0.6)), url("../../images/duncan-ceiling.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0, 0, 0.2), rgba(0, 0, 0, 0.4), rgba(0,0,0,0.6)), url("../../images/duncan-ceiling.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4), rgba(0,0,0,0.6)), url("../../images/duncan-ceiling.jpg");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4), rgba(0,0,0,0.6)), url("../../images/duncan-ceiling.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+#main .big-header {
+    font-size: 2.25em;
+}
+
+#main {
+    color: #fff;
+	text-align: center;
+}
+
+	#main img {
+		padding: 1em;
+	}

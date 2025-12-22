@@ -81,3 +81,8 @@
 		}
 
 })(jQuery);
+
+document.getElementById('close-announcement').addEventListener('click', function() {
+	document.getElementById('top-announcement').classList.add('hidden-announcement');
+	document.body.classList.add('announcement-closed');
+});
