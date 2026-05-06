@@ -4130,9 +4130,9 @@ figcaption {
 
 
 /* Custom Top Announcement Bar */
-#top-announcement {
-    background-color: #ffcc00; /* Yellow */
-    color: #000; /* Black text for readability */
+/* #top-announcement {
+    background-color: #ffcc00; 
+    color: #000;
     text-align: center;
     padding: 10px 0;
     font-weight: 600;
@@ -4140,24 +4140,22 @@ figcaption {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10001; /* Keeps it above the header and menu */
+    z-index: 10001;
     font-size: 0.9em;
-}
-
+} */
+/* 
 #top-announcement p {
     margin: 0;
     letter-spacing: 0.05em;
-}
+} */
 
 /* Adjust the main page wrapper to prevent the bar from covering content */
-body.landing #page-wrapper {
-    padding-top: 45px; /* Adjust based on the bar's height */
+/* body.landing #page-wrapper {
+    padding-top: 45px;
 }
-
-/* Ensure the header accounts for the new bar */
 #header {
     top: 45px !important;
-}
+} */
 
 .announcement-content {
     display: flex;
